@@ -1,6 +1,5 @@
 <?php
 if (!defined("B_PROLOG_INCLUDED") || B_PROLOG_INCLUDED !== true) die();
-define("LOG_FILENAME", $_SERVER["DOCUMENT_ROOT"] . "/log.txt");
 
 use Bitrix\Main\Loader;
 use Bitrix\Highloadblock as HL;
